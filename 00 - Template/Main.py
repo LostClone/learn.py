@@ -1,21 +1,31 @@
-a = 10
-x = 1
-panjang = 122
+#int = non decimal
 
-print("Nilai a =", a)
-print("Nilai Panjang =", panjang)
-print("Nilai x =", x)
+data_integer = 1
+print("Data :", data_integer)
+print("Data Bertipe :", type(data_integer))
 
-# penamaan tdk blh pake spasi
-# variable, didpn hrs huruf tdk blh angka
+#float = decimal
 
-nilai_y = 29
+data_float = 32.10
+print("Data :", data_float)
+print("Data Bertipe :", type(data_float))
 
-# pemanggilan kedua
-print("Nilai Panjang =", panjang)
-panjang = 21
-print("Nilai Panjang =", panjang)
+#string = kumpulan karakter
 
-# assignment indirect
-b = x
-print("Nilai b = ", b)
+data_string = "halo 3"
+print("Data :", data_string)
+print("Data Bertipe :", type(data_string))
+
+#boolean = true or false
+
+data_bool = True
+print("Data :", data_bool)
+print("Data Bertipe :", type(data_bool))
+
+#tipe data khusus
+#bilangan kompleks
+
+data_complex = complex(4,6)
+print("Data :", data_complex)
+print("Data Bertipe :", type(data_complex))
+
