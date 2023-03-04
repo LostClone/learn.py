@@ -1,15 +1,39 @@
+# operasi aritmatika
 
+a = 10
+b = 3
 
-Nama = str(input("Masukkan Nama: "))
+# sums with +
+hasil = a + b
+print(a, "+", b, "=", hasil)
 
-print("data =", Nama, "Type =", type(Nama))
+# pengurangan with - 
+hasil = a - b
+print(a, "-", b, "=", hasil)
 
+# multiply with *
+hasil = a * b
+print(a, "*", b, "=", hasil)
 
-Umur = int(input("Masukkan Umur: "))
+# divide with /
+hasil = a / b
+print(a, ":", b, "=", hasil)
 
-print("data =", Umur, "Type =", type(Umur))
+# exponential
+hasil = a ** b
+print(a, "pangkat", b, "=", hasil)
 
+# sisa pembagiaan
+hasil = a % b
+print(a, "%", b, "=", hasil)
 
-data_bool = bool(int(input("Masukkan Nilai boolean: ")))
+# floor division // (dibulatkan kbwh)
+hasil = a // b
+print(a, "//", b, "=", hasil)
 
-print("data =", data_bool, "Type =", type(data_bool))
+z = 8
+y = 3
+x = 6
+
+hasil = x ** y * z / y + y - z // x % y
+print(x,"**",y,"*",z,"/",y,"+",y,"-",z,'//',x,"%",y, "=", hasil)
